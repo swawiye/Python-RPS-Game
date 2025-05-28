@@ -32,3 +32,14 @@ while running: # creates a loop to enables continuous playing
     else: 
         print("You lose.") # if none of the above are met
 
+    # Exiting the loop
+    play_again = input("Play again? (y/n): ").lower() # temporary variable that asses whether the player would like to play again, "lower()" method converts the string into lowercase letters
+    if not play_again == "y": # if the user doesn't want to play again, escape the loop
+        running = False
+
+print("Thanks for playing!")
+
+# Alternative method for exiting the loop
+#if not input("Play again? (y/n): ").lower() == "y":
+#    running = False
+
