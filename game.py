@@ -50,4 +50,12 @@ print(f"Computer: {computer}")
 
 if player == computer:
     print("It's a tie.")
+elif player == "rock" and computer == "scissors": # rock winning validation
+    print("You win!")
+elif player == "paper" and computer == "rock": # paper winning validation
+    print("You win!")
+elif player == "scissors" and computer == "paper": # scissors winning validation
+    print("You win!")
+else: 
+    print("You lose.") # if none of the above are met
 
