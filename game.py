@@ -8,7 +8,7 @@ import random
 
 options = ("rock", "paper", "scissors")
 
-running = True # the game running, makes the boolean easier to use in larger code
+running = True # the game running, makes the boolean easier to use in larger code blocks
 
 while running: # creates a loop to enables continuous playing
     # Reset the player choices and the computer choices
